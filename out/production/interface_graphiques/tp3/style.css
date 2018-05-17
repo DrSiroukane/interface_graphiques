@@ -1,0 +1,18 @@
+#button1 {
+    -fx-font-family: "Times New Roman";
+    -fx-background-color: #00ffff;
+}
+
+#button2 {
+    -fx-font-family: "Arial";
+    -fx-background-color: #00ff55;
+}
+
+#button2:pressed {
+    -fx-background-color: #ff0000;
+}
+
+#button1:pressed {
+    -fx-rotate: 45;
+    -fx-cursor: hand;
+}

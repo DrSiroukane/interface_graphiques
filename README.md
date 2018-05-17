@@ -65,6 +65,24 @@ vBox.setSpacing(10);
 scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 ```
 
+##Tp 4 :
+
+##Tp 5 :
+
+##Tp 6 :
+
+##Tp 7 :
+
+##Tp 8 :
+
+##Tp 9 :
+
+##Tp 10 :
+
+##Tp 11 :
+
+##Tp 12 :
+
 
 
 

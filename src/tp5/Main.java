@@ -9,6 +9,9 @@ import javafx.stage.Stage;
 
 import java.util.Random;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Main extends Application {
     final int height = 450;
     final int width = 450;

@@ -18,7 +18,7 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 /**
- * @author Slimane SIROUKANE
+ * @author Slimane Siroukane
  */
 public class Main extends Application {
     final int height = 768;

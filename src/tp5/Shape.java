@@ -6,6 +6,9 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Shape {
     private final int SHAPE_CIRCLE = 0;
     private final int SHAPE_RECTANGLE = 1;

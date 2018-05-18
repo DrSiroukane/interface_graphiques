@@ -12,6 +12,9 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Main extends Application {
 
     @Override

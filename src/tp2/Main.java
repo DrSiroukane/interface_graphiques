@@ -13,6 +13,9 @@ import javafx.stage.Stage;
 
 import java.io.*;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Main extends Application {
 
     @Override

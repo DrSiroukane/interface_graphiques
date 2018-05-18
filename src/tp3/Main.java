@@ -8,6 +8,9 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Main extends Application {
 
     @Override

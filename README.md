@@ -196,6 +196,26 @@ rectangle.setY(e.getY() - 50);
 
 ## Tp 9 :
 
+Used classes :
+
+* TextFormatter : check holder used to check input on TextFeild as validator,
+
+Some interesting instruction :
+```$xslt
+TextFormatter<String> uppercaseTextFormatter = new TextFormatter<String>(
+        change -> {
+            String text = change.getText();
+            if ((0 != text.length()) && !text.matches("[a-zA-Z]") ) {
+                return null;
+            }
+            change.setText(text.toUpperCase());
+            return change;
+        }
+);
+
+typeTextField.setTextFormatter(uppercaseTextFormatter);
+```
+
 ## Tp 10 :
 
 ## Tp 11 :

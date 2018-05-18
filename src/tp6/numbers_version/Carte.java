@@ -2,6 +2,9 @@ package tp6.numbers_version;
 
 import javafx.scene.control.Button;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Carte {
     public int id;
     public int value;

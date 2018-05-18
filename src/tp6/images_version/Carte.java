@@ -2,6 +2,9 @@ package tp6.images_version;
 
 import javafx.scene.control.Button;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Carte {
     public int id;
     public String url;

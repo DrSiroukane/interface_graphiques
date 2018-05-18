@@ -13,6 +13,9 @@ import javafx.util.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @author Slimane Siroukane
+ */
 public class Main extends Application {
     public ArrayList<Carte> cartes; // list of cards
     public int opened_carte; // number of opened cards

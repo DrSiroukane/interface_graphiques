@@ -130,21 +130,73 @@ rotateTransition.pause();
 
 ## Tp 6 :
 
+Used classes :
+
+* Timeline : time thread helper play, stop, set duration, catch on finish,
+
+Some interesting instruction :
+```$xslt
+Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(2)));
+timeline.play();
+timeline.stop();
+timeline.setOnFinished(evt -> ... );
+game_time = System.currentTimeMillis();
+button.setStyle(
+	"-fx-background-image: url('" + getClass().getResource("images/Blank.png").toExternalForm() + "');"
+);
+```
+
 ## Tp 7 :
 
+Used classes :
+
+* Slider : slider controller,
+* ColorPicker : color picker controller,
+
+Some interesting instruction :
+```$xslt
+Slider slider = new Slider();
+slider.setMax(200);
+slider.setShowTickMarks(true);
+slider.setShowTickLabels(true);
+slider.setMajorTickUnit(50);
+slider.setOrientation(Orientation.VERTICAL);
+
+ColorPicker colorPicker = new ColorPicker();
+colorPicker.setValue(Color.GREEN);
+
+slider.valueProperty().addListener(
+        (ov, oldVal, newVal) -> {
+            circle.setRadius(newVal.doubleValue() / 2);
+        }
+);
+
+circle.radiusProperty().bind(slider.valueProperty().divide(2));
+```
+
 ## Tp 8 :
+
+* Pane : layout most time used to put element on specified position or draw on it,
+* RadioButton : Label with checkbox,
+* ToggleGroup : group that collect many RadioButtons to check only one,
+
+Some interesting instruction :
+```$xslt
+ToggleGroup Shapes = new ToggleGroup();
+ RadioButton circleRadioButton = new RadioButton("Circle");
+circleRadioButton.setSelected(true); // selected
+circleRadioButton.setToggleGroup(Shapes);
+pane.setOnMouseClicked(e -> ... );
+if (addRadioButton.isSelected()) { ... }
+circle.setCenterX(e.getX());
+circle.setCenterY(e.getY());
+rectangle.setX(e.getX() - 50);
+rectangle.setY(e.getY() - 50);
+```
 
 ## Tp 9 :
 
 ## Tp 10 :
 
 ## Tp 11 :
-
-## Tp 12 :
-
-
-
-
-
-
 

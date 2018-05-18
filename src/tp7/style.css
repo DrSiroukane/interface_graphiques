@@ -1,0 +1,13 @@
+#circle {
+    -fx-fill: transparent;
+    -fx-stroke: green;
+    -fx-stroke-type: inside;
+    -fx-stroke-width: 5px;
+    -fx-stroke-dash-array: 12 4;
+    -fx-stroke-dash-offset: inherit;
+    -fx-stroke-line-cap: butt;
+}
+
+#pane {
+    -fx-background-color: gray;
+}
